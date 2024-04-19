@@ -1,0 +1,16 @@
+{
+    "name": "vendor/wp-database-crud",
+    "authors": [
+        {
+            "name": "Sydur Rahman",
+            "email": "sydurrahmant1@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "wp-coding-standards/wpcs": "3.0"
+    },
+    "scripts": {
+        "lint": "phpcs",
+        "lint-fix": "phpcbf"
+    }
+}

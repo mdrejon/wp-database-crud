@@ -1,29 +1,27 @@
 ### WP Database CRUD WordPress Plugin. 
 
-## Features
-- Using a post meta, the plugin stores the view count for a post. This count is incremented each time the post is viewed.
-- In the admin post list screen, a custom admin column is added that shows the view count for each post. This admin column is sortable, allowing the user to sort posts by view count.
-- A shortcode is registered that accepts a post ID. It queries the post meta and returns the view count for that post. 
-
+ 
 ## Installation
 1. Download the plugin and upload it to your WordPress plugins directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. Configure the plugin settings as per your needs.
 
 ## Usage
-- Once activated, the plugin automatically starts recording the view count for each post.
-- To view the WP Database CRUD, navigate to the admin post list screen. You will see a custom column labeled "View Count" displaying the view count for each post. You can click on the column header to sort posts by view count.
+- After activating the plugin, you'll find a new menu item in the WordPress admin sidebar labeled "WP Database CRUD."
+- Click on "WP Database CRUD" to access the plugin's main admin page.
+- On the main admin page, you'll see a table displaying all existing data.
+- Each row in the table will have "Edit" and "Delete" buttons.
+- Click on the "Add new data" button above the table to add new entries.
+- To edit an existing entry, click on the "Edit" button corresponding to that entry. This will load the data into a form for modification.
+- To delete an entry, click on the "Delete" button corresponding to that entry. You will be prompted to confirm the deletion. 
 
-## Shortcode
-- [wtdpvc_post_view_count id=76]: With the post ID specified, you can display the post count on the frontend.
-- [wtdpvc_post_view_count]: You can use this shortcode directly within your single post page to display the post count without specifying a post ID.
 
 ## Screenshots
 You can view screenshots of the plugin in action at the following links:
-1. [Screenshot 1](https://prnt.sc/-YoZ6zLj7wIe)
-2. [Screenshot 2](https://prnt.sc/DkgUk16xaf_3) 
-2. [Screenshot 3](https://prnt.sc/SsZdGG6ANs-p) 
-2. [Screenshot 4](https://prnt.sc/jlaXWzdp3Whh) 
+1. [Screenshot 1](https://prnt.sc/k_dBsGoF3G3t)
+2. [Screenshot 2](https://prnt.sc/K_A7ytSxq55t) 
+3. [Screenshot 3](https://prnt.sc/yffM6WPDD_hS) 
+4. [Screenshot 4](https://prnt.sc/iDlDRgOMIn_h) 
 
 
 ## Support

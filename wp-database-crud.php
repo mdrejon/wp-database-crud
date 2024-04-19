@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: WP Database CRUD
- * Plugin URI: https://github.com/mdrejon/post-view-count
- * Description: This plugins counts the number of views for each post.
+ * Plugin URI: https://github.com/mdrejon/wp-database-crud
+ * Description: A simple WordPress plugin to demonstrate how to create a CRUD operation in WordPress.
  * Version: 1.0.0
  * Author: Sydur Rahman
  * Author URI: https://sydurrahman.com/
@@ -30,14 +30,12 @@ class WTDDB_CRUD {
 
 		// Load plugin textdomain.
 		add_action( 'plugins_loaded', array( $this, 'wtddb_load_textdomain' ) );
- 
 
 		// Load admin class.
 		require_once WTDDB_PATH . 'admin/admin.php';
 
 		// Run admin class.
 		new WTDDB_ADMIN();
- 
 	}
 
 	/**
@@ -52,10 +50,10 @@ class WTDDB_CRUD {
 		load_plugin_textdomain( 'wp-database-crud', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
 	}
 
- 
+
 
 	/**
-	 * Define constant
+	 * Define constant.
 	 *
 	 * @since 1.0.0
 	 *

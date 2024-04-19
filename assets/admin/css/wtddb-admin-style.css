@@ -92,6 +92,15 @@
     margin-bottom: 20px;
 }
 
-.wtddb-crud-list-table a { 
+.wtddb-crud-list-table a {
     margin-right: 10px !important;
+}
+
+.wtddb-emptydata {
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 0;
+    border-radius: 5px;
+    font-weight: 700;
 }
