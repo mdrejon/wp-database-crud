@@ -1,4 +1,16 @@
-### WP Database CRUD WordPress Plugin. 
+=== WP Database CRUD ===
+Contributors: mdrejon
+Donate link: https://sydurrahman.com/
+Tags: WP Database CRUD
+Requires at least: 4.2
+Tested up to: 6.4.3
+Requires PHP: 7.4
+Stable tag: 3.3.6
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+WP Database CRUD WordPress Plugin. 
+
+### 
 
 ## Features
 - Using a post meta, the plugin stores the view count for a post. This count is incremented each time the post is viewed.
@@ -12,7 +24,7 @@
 
 ## Usage
 - Once activated, the plugin automatically starts recording the view count for each post.
-- To view the WP Database CRUD, navigate to the admin post list screen. You will see a custom column labeled "View Count" displaying the view count for each post. You can click on the column header to sort posts by view count.
+- To view the post view count, navigate to the admin post list screen. You will see a custom column labeled "View Count" displaying the view count for each post. You can click on the column header to sort posts by view count.
 
 ## Shortcode
 - [wtdpvc_post_view_count id=76]: With the post ID specified, you can display the post count on the frontend.
